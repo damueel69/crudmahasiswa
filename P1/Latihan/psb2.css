@@ -1,0 +1,154 @@
+/* Reset some default styles */
+body, h2, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the form container */
+body {
+  font-family: Arial, sans-serif;
+  background-color: pink;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: pink;
+}
+
+/* Style the form fields and labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+
+
+input[type="radio"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+
+
+
+/* Apply styles to form sections */
+.input_data_diri,
+.input_data_kelahiran,
+.data_tambahan,
+.data_father,
+.data_mother,
+.data_wali_class {
+  background-color: #1C1C1C;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: pink;
+}
+
+/* Apply styles to file input fields */
+input[type="file"] {
+  margin-top: 10px;
+}
+
+/* Additional styling for specific elements */
+#asal_tk {
+  width: 100%;
+}
+
+#status_anak,
+#kewarganegaraan,
+#berkebutuhan_khusus,
+#tinggal_bersama,
+#jenis_tinggal,
+#transportasi,
+#penerima_bantuan,
+#jenis_bantuan,
+#penghasilan_ayah,
+#penghasilan_ibu,
+#penghasilan_wali {
+  width: 100%;
+}
+
+#lainnya_value {
+  width: 60%;
+  margin-left: 10px;
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+  .input_data_diri,
+  .input_data_kelahiran,
+  .data_tambahan,
+  .data_father,
+  .data_mother,
+  .data_wali_class {
+      padding: 10px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  select {
+      margin-bottom: 10px;
+  }
+
+
+
+}
+
+/* Style the div elements */
+/* Center and style the div elements */
+/* Center and style the div elements */
+div {
+  width: 70%; /* Adjust the width as needed */
+  max-width: 500px; /* Set a maximum width */
+  margin: 0 auto; /* Center the div horizontally */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add rounded corners if desired */
+  box-sizing: border-box;
+}
+
+/* Styling for the button container */
+.button {
+  text-align: center;
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+/* Styling for the submit button */
+.button button[type="submit"] {
+  padding: 10px 20px; /* Adjust the padding as needed */
+  background-color: black; /* Change the background color as desired */
+  color: pink; /* Change the text color as desired */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+.button button[type="submit"]:hover {
+  background-color: pink; /* Change the hover background color as desired */
+}

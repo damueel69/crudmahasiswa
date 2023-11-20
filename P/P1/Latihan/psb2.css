@@ -1,0 +1,49 @@
+/* Style the header */
+.form-header {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  /* Style the form labels */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Style the textboxes */
+  .form-textbox {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    margin-bottom: 1em;
+  }
+  
+  /* Style the radio buttons */
+  .form-radio-item {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  /* Style the file upload fields */
+  .fileupload-input {
+    display: none;
+  }
+  
+  .qq-upload-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+  
+  .qq-upload-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .qq-upload-list li {
+    margin-bottom: 0.5em;
+  }
